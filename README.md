@@ -23,11 +23,13 @@ This tool leverages the power of Dlib and OpenCV to effortlessly sort event phot
    git clone [Your GitHub Repo URL]
 
 2. **Set up a Virtual Environment (optional but recommended):**
+   ```bash
     python -m venv env
     source env/bin/activate  # For Linux/Mac
     .\env\Scripts\activate   # For Windows
 
-3. **Install dependencies:**
+4. **Install dependencies:**
+     ```bash
     pip install -r requirements.txt
 
 **NOTE:** Ensure Python 3.7 or later is installed.
@@ -36,6 +38,7 @@ This tool leverages the power of Dlib and OpenCV to effortlessly sort event phot
 
 * Provide a single cropped facial image.
 * Run the tool:
+     ```bash
     python sort_photos.py
 * Retrieve sorted photos in the specific_face_directory.
 
