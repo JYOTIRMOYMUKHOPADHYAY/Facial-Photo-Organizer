@@ -62,8 +62,7 @@ no_exist = []
 
 # Loop through the list of JPEG files
 for jpg_file in jpg_files:
-    print(jpg_file)
-
+    
     # Create a specific face directory if it doesn't exist
     if not os.path.exists(specific_face_directory):
         os.makedirs(specific_face_directory)
