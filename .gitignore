@@ -1,0 +1,25 @@
+specific_face_directory
+*.CR2
+images
+# Ignore Python virtual environment folders
+venv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore sensitive information
+config.ini
+secrets.json
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
