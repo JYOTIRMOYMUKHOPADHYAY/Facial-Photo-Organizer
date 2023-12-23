@@ -1,6 +1,6 @@
 specific_face_directory
 *.CR2
-images
+
 # Ignore Python virtual environment folders
 venv/
 env/
